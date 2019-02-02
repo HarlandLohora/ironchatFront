@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IRONCHAT</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="https://cdn-images-1.medium.com/max/1200/1*69RcxrWXuk385lSxkIYYLA.png">
+</head>
+<body>
+  <h1 class="text-center my-5">IRONCHAT</h1>
+  <div class="card col-lg-8 offset-lg-2 my-5" id="formulario">
+      <div class="card-body">
+          <input type="text" placeholder="Usuario" id="usuario" class="my-3 input" autocomplete="off" required>
+          <button class="btn btn-primary btn-block my-3" onclick="acceder()">Acceder</button>
+      </div>
+  </div>
+  <div class="card col-lg-8 offset-lg-2 my-5 noMostrar" id="mensajesCard">
+    <div class="card-body">
+      <div id="mensajes"></div>
+      <div>
+        <input type="text" placeholder="Escribe un mensaje" class="input">
+        <button class="btn btn-primary btn-block my-2">Enviar <i class="fab fa-telegram-plane"></i></button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

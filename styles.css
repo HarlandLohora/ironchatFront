@@ -1,0 +1,20 @@
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+h1{
+  color: #007bff;
+}
+.input{
+  width: 100%;
+}
+#mensajes{
+  width : 100%;
+  height: 450px;
+  border: 1px solid #ccc;
+}
+.checkInput{
+  border: 1px solid #F00;
+}
+.noMostrar{
+  display: none;
+}
